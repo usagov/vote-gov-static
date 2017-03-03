@@ -295,8 +295,12 @@
 			}
 			else {
 				ev.preventDefault();	
+				var redirectURL = window.location.href;
+				if (redirectURL.charAt(redirectURL.length -1) !== '/') {
+					redirectURL += '/';
+				}
 				
-					var redirectURL = window.location.protocol + '//' + window.location.host + '/register/';
+					redirectURL = window.location.href + 'register/';
 				
 				redirectURL = redirectURL + stateSelected + '/';
 				window.location.href = redirectURL;
