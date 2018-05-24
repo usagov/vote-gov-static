@@ -121,7 +121,7 @@
     Islas Marianas Del Norte requiere que sus residentes se inscriban para votar en persona en su oficina electoral local.
   </p>
   <p>
-    <a href="http://votecnmi.gov.mp">
+    <a href="https://www.votecnmi.gov.mp/">
       Visite el sitio web de la oficina electoral de Islas Marianas Del Norte para averiguar cómo registrarse para votar.
     </a>
   </p>
@@ -176,6 +176,27 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 </script>
 
     
+
+	<script type="text/javascript">
+		document.getElementById('register').onsubmit = function(ev) {		
+			var stateSelected = document.getElementById('js-user-selection').value;			
+			if (stateSelected === 'default') {
+				return false;
+			}
+			else {
+				ev.preventDefault();	
+				var redirectURL = window.location.href;
+				if (redirectURL.charAt(redirectURL.length -1) !== '/') {
+					redirectURL += '/';
+				}
+				
+					redirectURL += 'registrar/';
+				
+				redirectURL = redirectURL + stateSelected + '/';
+				window.location.href = redirectURL;
+			}		
+		};
+	</script>
 
 <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
 

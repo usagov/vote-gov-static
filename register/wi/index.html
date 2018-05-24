@@ -49,7 +49,7 @@
   </head>
 
 
-  <body class="page-register-by-mail">
+  <body class="page-register-online">
     
 
 <header class="usa-site-header" role="banner">
@@ -110,135 +110,21 @@
 
       
 
-<div class="usa-grid page-inner mail-steps">
-  <h1>
-    Register to vote
-  </h1>
+
+<div class="usa-grid page-inner main-content">
+  <header>
+    <h1>
+      Register to vote
+    </h1>
+  </header>
   <p class="usa-font-lead">
-    Wisconsin allows residents to register by mail, not online.
+    Wisconsin allows residents to register online.
   </p>
-  
-  <div class="graphic-list">
-    <div class="usa-width-one-third">
-      <img src="https://vote.gov/assets/img/step-1.png">
-      <h4 class="usa-graphic-list-heading">
-        Step 1
-      </h4>
-      <p>
-        Fill out your voter registration.
-      </p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="https://vote.gov/assets/img/step-2.png">
-      <h4 class="usa-graphic-list-heading">
-        Step 2
-      </h4>
-      <p>
-        Mail it to your state.
-      </p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="https://vote.gov/assets/img/step-3.png">
-      <h4 class="usa-graphic-list-heading">
-        Step 3
-      </h4>
-      <p>
-        Vote in the upcoming election!
-      </p>
-    </div>
-  </div>
-  
-</div>
-
-
-<div class="usa-grid page-inner mail-download">
-  
-    
-  
-    
-  
-    
-    <a class="usa-button" href="https://vote.gov/files/federal-voter-registration_1-25-16_english.pdf" target="_blank">
-      Download the form (PDF)
-    </a>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
   <p>
-    Download the form in other languages:
+    <a href="https://myvote.wi.gov/en-us/RegisterToVote?ref=voteusa">
+      Start your online registration
+    </a>
   </p>
-  <ul class="usa-unstyled-list mail-download-list">
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_2-29-16_bengali.pdf" target="_blank">Bengali</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_1-27-16_chinese.pdf" target="_blank">Chinese</a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_2-29-16_hindi.pdf" target="_blank">Hindi</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_1-27-16_japanese.pdf" target="_blank">Japanese</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_2-29-16_khmer.pdf" target="_blank">Khmer</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_1-26-16_korean.pdf" target="_blank">Korean</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_1-25-16_spanish.pdf" target="_blank">Spanish</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_1-26-16_tagalog.pdf" target="_blank">Tagalog</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="https://vote.gov/files/federal-voter-registration_1-26-16_vietnamese.pdf" target="_blank">Vietnamese</a>
-        </li>
-      
-    
-  </ul>
 </div>
 
 
@@ -289,6 +175,27 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 </script>
 
     
+
+	<script type="text/javascript">
+		document.getElementById('register').onsubmit = function(ev) {		
+			var stateSelected = document.getElementById('js-user-selection').value;			
+			if (stateSelected === 'default') {
+				return false;
+			}
+			else {
+				ev.preventDefault();	
+				var redirectURL = window.location.href;
+				if (redirectURL.charAt(redirectURL.length -1) !== '/') {
+					redirectURL += '/';
+				}
+				
+					redirectURL += 'register/';
+				
+				redirectURL = redirectURL + stateSelected + '/';
+				window.location.href = redirectURL;
+			}		
+		};
+	</script>
 
 <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
 

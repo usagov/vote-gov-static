@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://vote.gov/</loc>
-    <lastmod>2016-05-26T21:49:22-04:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://vote.gov/register/as/</loc>
@@ -285,6 +280,28 @@
   <url>
     <loc>https://vote.gov/register/ar/</loc>
     <lastmod>2016-05-09T16:17:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vote.gov/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vote.gov/register/</loc>
+    <lastmod>2016-05-26T21:49:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vote.gov/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vote.gov/</loc>
+    <lastmod>2016-05-26T21:49:22-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -121,7 +121,7 @@
     U.S. Virgin Islands requires residents to register in person at their local election office.
   </p>
   <p>
-    <a href="http://www.vivote.gov">
+    <a href="https://www.vivote.gov/voters/register-vote">
       Visit the U.S. Virgin Islands elections site to find out how to register.
     </a>
   </p>
@@ -176,6 +176,27 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 </script>
 
     
+
+	<script type="text/javascript">
+		document.getElementById('register').onsubmit = function(ev) {		
+			var stateSelected = document.getElementById('js-user-selection').value;			
+			if (stateSelected === 'default') {
+				return false;
+			}
+			else {
+				ev.preventDefault();	
+				var redirectURL = window.location.href;
+				if (redirectURL.charAt(redirectURL.length -1) !== '/') {
+					redirectURL += '/';
+				}
+				
+					redirectURL += 'register/';
+				
+				redirectURL = redirectURL + stateSelected + '/';
+				window.location.href = redirectURL;
+			}		
+		};
+	</script>
 
 <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
 

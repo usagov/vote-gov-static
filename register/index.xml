@@ -6,7 +6,9 @@
     <description>Recent content in Registers on Voter Registration</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 26 May 2016 21:49:22 -0400</lastBuildDate>
-    <atom:link href="https://vote.gov/register/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://vote.gov/register/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>American Samoa</title>
@@ -140,6 +142,375 @@
       <pubDate>Thu, 26 May 2016 17:17:10 -0400</pubDate>
       
       <guid>https://vote.gov/register/pa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rhode Island</title>
+      <link>https://vote.gov/register/ri/</link>
+      <pubDate>Thu, 26 May 2016 17:17:10 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>South Carolina</title>
+      <link>https://vote.gov/register/sc/</link>
+      <pubDate>Thu, 26 May 2016 17:17:10 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/sc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>South Dakota</title>
+      <link>https://vote.gov/register/sd/</link>
+      <pubDate>Thu, 26 May 2016 17:17:10 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/sd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tennessee</title>
+      <link>https://vote.gov/register/tn/</link>
+      <pubDate>Thu, 26 May 2016 17:17:10 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/tn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Texas</title>
+      <link>https://vote.gov/register/tx/</link>
+      <pubDate>Thu, 26 May 2016 17:17:10 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/tx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nebraska</title>
+      <link>https://vote.gov/register/ne/</link>
+      <pubDate>Thu, 26 May 2016 17:17:09 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nevada</title>
+      <link>https://vote.gov/register/nv/</link>
+      <pubDate>Thu, 26 May 2016 17:17:09 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/nv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Hampshire</title>
+      <link>https://vote.gov/register/nh/</link>
+      <pubDate>Thu, 26 May 2016 17:17:09 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/nh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Jersey</title>
+      <link>https://vote.gov/register/nj/</link>
+      <pubDate>Thu, 26 May 2016 17:17:09 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/nj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Mexico</title>
+      <link>https://vote.gov/register/nm/</link>
+      <pubDate>Thu, 26 May 2016 17:17:09 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/nm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>North Carolina</title>
+      <link>https://vote.gov/register/nc/</link>
+      <pubDate>Thu, 26 May 2016 17:17:09 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/nc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Massachusetts</title>
+      <link>https://vote.gov/register/ma/</link>
+      <pubDate>Thu, 26 May 2016 17:17:08 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan</title>
+      <link>https://vote.gov/register/mi/</link>
+      <pubDate>Thu, 26 May 2016 17:17:08 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/mi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minnesota</title>
+      <link>https://vote.gov/register/mn/</link>
+      <pubDate>Thu, 26 May 2016 17:17:08 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/mn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mississippi</title>
+      <link>https://vote.gov/register/ms/</link>
+      <pubDate>Thu, 26 May 2016 17:17:08 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Missouri</title>
+      <link>https://vote.gov/register/mo/</link>
+      <pubDate>Thu, 26 May 2016 17:17:08 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/mo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Montana</title>
+      <link>https://vote.gov/register/mt/</link>
+      <pubDate>Thu, 26 May 2016 17:17:08 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/mt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iowa</title>
+      <link>https://vote.gov/register/ia/</link>
+      <pubDate>Thu, 26 May 2016 17:17:07 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kansas</title>
+      <link>https://vote.gov/register/ks/</link>
+      <pubDate>Thu, 26 May 2016 17:17:07 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kentucky</title>
+      <link>https://vote.gov/register/ky/</link>
+      <pubDate>Thu, 26 May 2016 17:17:07 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Louisiana</title>
+      <link>https://vote.gov/register/la/</link>
+      <pubDate>Thu, 26 May 2016 17:17:07 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/la/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maine</title>
+      <link>https://vote.gov/register/me/</link>
+      <pubDate>Thu, 26 May 2016 17:17:07 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maryland</title>
+      <link>https://vote.gov/register/md/</link>
+      <pubDate>Thu, 26 May 2016 17:17:07 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/md/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Georgia</title>
+      <link>https://vote.gov/register/ga/</link>
+      <pubDate>Thu, 26 May 2016 17:17:06 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hawaii</title>
+      <link>https://vote.gov/register/hi/</link>
+      <pubDate>Thu, 26 May 2016 17:17:06 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/hi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Idaho</title>
+      <link>https://vote.gov/register/id/</link>
+      <pubDate>Thu, 26 May 2016 17:17:06 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/id/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Illinois</title>
+      <link>https://vote.gov/register/il/</link>
+      <pubDate>Thu, 26 May 2016 17:17:06 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/il/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indiana</title>
+      <link>https://vote.gov/register/in/</link>
+      <pubDate>Thu, 26 May 2016 17:17:06 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/in/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arizona</title>
+      <link>https://vote.gov/register/az/</link>
+      <pubDate>Thu, 26 May 2016 17:17:05 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/az/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>California</title>
+      <link>https://vote.gov/register/ca/</link>
+      <pubDate>Thu, 26 May 2016 17:17:05 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colorado</title>
+      <link>https://vote.gov/register/co/</link>
+      <pubDate>Thu, 26 May 2016 17:17:05 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/co/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecticut</title>
+      <link>https://vote.gov/register/ct/</link>
+      <pubDate>Thu, 26 May 2016 17:17:05 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delaware</title>
+      <link>https://vote.gov/register/de/</link>
+      <pubDate>Thu, 26 May 2016 17:17:05 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/de/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Florida</title>
+      <link>https://vote.gov/register/fl/</link>
+      <pubDate>Thu, 26 May 2016 17:17:05 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/fl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alabama</title>
+      <link>https://vote.gov/register/al/</link>
+      <pubDate>Thu, 26 May 2016 17:17:04 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/al/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alaska</title>
+      <link>https://vote.gov/register/ak/</link>
+      <pubDate>Thu, 26 May 2016 17:17:04 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>North Dakota</title>
+      <link>https://vote.gov/register/nd/</link>
+      <pubDate>Tue, 10 May 2016 09:55:36 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/nd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisconsin</title>
+      <link>https://vote.gov/register/wi/</link>
+      <pubDate>Tue, 10 May 2016 09:54:01 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/wi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wyoming</title>
+      <link>https://vote.gov/register/wy/</link>
+      <pubDate>Tue, 10 May 2016 09:54:01 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/wy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New York</title>
+      <link>https://vote.gov/register/ny/</link>
+      <pubDate>Mon, 09 May 2016 17:13:13 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arkansas</title>
+      <link>https://vote.gov/register/ar/</link>
+      <pubDate>Mon, 09 May 2016 16:17:01 -0400</pubDate>
+      
+      <guid>https://vote.gov/register/ar/</guid>
       <description></description>
     </item>
     
