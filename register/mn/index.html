@@ -185,6 +185,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			else {
 				ev.preventDefault();	
 				var redirectURL = window.location.href;
+				redirectURL = redirectURL.substring(0,redirectURL.lastIndexOf('/'));
 				if (redirectURL.charAt(redirectURL.length -1) !== '/') {
 					redirectURL += '/';
 				}
